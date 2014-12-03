@@ -27,7 +27,7 @@ DIRECTORY STRUCTURE
 
 
 REQUIREMENTS
-------------http://www.yiiframework.com/doc-2.0/guide-start-workflow.html#
+------------
 
 The minimum requirement by this application template that your Web server supports PHP 5.4.0.
 
@@ -41,12 +41,12 @@ VERIFY INSTALLATION
 
 After installation, you can use your browser to access the installed Yii application with the following URL:
 
-http://<LOCAL PATH TO YOUR CLONED REPO>/web/index.php
+[LOCAL PATH TO YOUR CLONED REPO]/web/index.php
 
 You should see the above "Congratulations!" page in your browser. If not, please check if your PHP installation satisfies Yii's requirements. 
 Use a browser to access the URL:
 
-http://<LOCAL PATH TO YOUR CLONED REPO>/requirements.php
+[LOCAL PATH TO YOUR CLONED REPO]/requirements.php
 
 You should configure your PHP installation so that it meets the minimum requirements of Yii. Most importantly, you should have PHP 5.4 or above. You should also install the PDO PHP Extension and a corresponding database driver (such as pdo_mysql for MySQL databases), if your application needs a database.
 
