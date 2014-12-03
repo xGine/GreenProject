@@ -27,63 +27,37 @@ DIRECTORY STRUCTURE
 
 
 REQUIREMENTS
-------------
+------------http://www.yiiframework.com/doc-2.0/guide-start-workflow.html#
 
 The minimum requirement by this application template that your Web server supports PHP 5.4.0.
-
 
 INSTALLATION
 ------------
 
-### Install from an Archive File
+Clone the repository at your web accessible folder
 
-Extract the archive file downloaded from [yiiframework.com](http://www.yiiframework.com/download/) to
-a directory named `basic` that is directly under the Web root.
+VERIFY INSTALLATION
+------------
 
-You can then access the application through the following URL:
+After installation, you can use your browser to access the installed Yii application with the following URL:
 
-~~~
-http://localhost/basic/web/
-~~~
+http://<LOCAL PATH TO YOUR CLONED REPO>/web/index.php
 
+You should see the above "Congratulations!" page in your browser. If not, please check if your PHP installation satisfies Yii's requirements. 
+Use a browser to access the URL:
 
-### Install via Composer
+http://<LOCAL PATH TO YOUR CLONED REPO>/requirements.php
 
-If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
-at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
+You should configure your PHP installation so that it meets the minimum requirements of Yii. Most importantly, you should have PHP 5.4 or above. You should also install the PDO PHP Extension and a corresponding database driver (such as pdo_mysql for MySQL databases), if your application needs a database.
 
-You can then install this application template using the following command:
+EXPLORING YII FRAMEWORK
+------------
 
-~~~
-php composer.phar global require "fxp/composer-asset-plugin:1.0.0-beta2"
-php composer.phar create-project --prefer-dist --stability=dev yiisoft/yii2-app-basic basic
-~~~
+You can start exploring Yii Framework by following the basic instructions here:
 
-Now you should be able to access the application through the following URL, assuming `basic` is the directory
-directly under the Web root.
+http://www.yiiframework.com/doc-2.0/guide-start-workflow.html
 
-~~~
-http://localhost/basic/web/
-~~~
+(Note: It is recommended that you should fork the repository to preserve the structure of the initial commit. 
+We will open this repository for development once we explore the feautures of Yii and ready for private collaboration).
 
 
-CONFIGURATION
--------------
-
-### Database
-
-Edit the file `config/db.php` with real data, for example:
-
-```php
-return [
-    'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=yii2basic',
-    'username' => 'root',
-    'password' => '1234',
-    'charset' => 'utf8',
-];
-```
-
-**NOTE:** Yii won't create the database for you, this has to be done manually before you can access it.
-
-Also check and edit the other files in the `config/` directory to customize your application.
